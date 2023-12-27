@@ -355,7 +355,7 @@ html, body{
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-betweenu;
     flex-direction: row;
 }
 .download{
@@ -520,4 +520,466 @@ html, body{
 .cright a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.61);
+}
+
+
+@media only screen and (max-width:700px){
+    .hero{
+        background-color: black;
+    }
+    .navbar{
+        padding: 0 3rem;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navleft{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.2rem;
+        flex-direction: row;
+    }
+    .navleft img{
+        width: 60%;
+    }
+    .linksleft{
+        display: none;
+    }
+    .linksright{
+        display: none;
+    }
+    .herosection{
+        padding: 1rem 1rem;
+        min-height: 85vh;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+    }
+    .heroleft{
+        height: 100%;
+        width: 100%;
+        /* padding: 2rem; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 1rem;
+    }
+    .heroleft h1{
+        text-align: center;
+        font-size: 3rem;
+        line-height: 120%;
+    }
+   
+   
+    .locations{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .location{
+        padding: 1rem;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.938);
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: .5rem;
+    }
+    .locations{
+        text-align: center;
+        width: 100%;
+        /* background-color: rebeccapurple; */
+    }
+    .locations p{
+        text-align: center;
+    }
+    .location div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .location div p{
+        color: rgb(94, 94, 94);
+        text-align: center;
+    }
+    .location img{
+        transform: scaleX(-1);
+    }
+    .heroright{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heroright div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 90%;
+    }
+    .heroright img{
+        width: 100%;
+    }
+    
+    .page1{
+        padding: 1rem 1rem;
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        flex-direction: column-reverse;
+    }
+    .page1left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page1left img{
+        width: 100%;
+    }
+    
+    .page1right{
+        padding: 1.2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .page1right h1{
+        text-align: center;
+        font-size: 2.8rem;
+        line-height: 100%;
+    }
+    .page1right p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: .8rem;
+    }
+    .a a{
+        color: rgba(0, 0, 0, 0.767);
+    }
+    
+    .page2{
+        padding: 1rem 1rem;
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        flex-direction: column-reverse;
+    }
+    .page2left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page2left img{
+        width: 100%;
+    }
+    
+    .page2right{
+        padding: 1.2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .page2right h1{
+        text-align: center;
+        font-size: 2.8rem;
+        line-height: 100%;
+    }
+    .page2right p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: .8rem;
+    }
+    .a a{
+        color: rgba(0, 0, 0, 0.767);
+    }
+    .page3{
+        padding: 1rem 1rem;
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        flex-direction: column-reverse;
+    }
+    .page3left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page3left img{
+        width: 100%;
+    }
+    
+    .page3right{
+        padding: 1.2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .page3right h1{
+        text-align: center;
+        font-size: 2.8rem;
+        line-height: 100%;
+    }
+    .page3right p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: .8rem;
+    }
+    .a a{
+        color: rgba(0, 0, 0, 0.767);
+    }
+    
+    .page4{
+        padding: 1rem 1rem;
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        flex-direction: column-reverse;
+    }
+    .page4left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page4left img{
+        width: 100%;
+    }
+    
+    .page4{
+        padding: 2rem 1rem;
+        height: fit-content;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.116);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        flex-direction: column;
+    }
+    .page4down{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .p4left{
+        padding: 1rem;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .p4left img:nth-child(1){
+        width: 6rem;
+    }
+    .p4right img:nth-child(1){
+        width: 6rem;
+    }
+    .p4right{
+        padding: 1rem;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .download{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer{
+        padding: 4rem 3rem;
+        min-height: 100vh;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+        color: white;
+        gap: 3rem;
+    }
+    .f1 p{
+        font-size: 1.8rem;
+    }
+    .flinks{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        /* justify-content: center; */
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .flinks1{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .flinks1 p{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .flinks1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .flinks2{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .flinks2 p{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .flinks2 a{
+        text-decoration: none;
+        color: white;
+    }
+    .flinks3{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .flinks3 p{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .flinks3 a{
+        text-decoration: none;
+        color: white;
+    }
+    .flinks4{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .flinks4 p{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .flinks4 a{
+        text-decoration: none;
+        color: white;
+    }
+    .social{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .social1{
+        display: none;
+        
+    }
+    
+    .playstore{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .playstore img{
+        width: 8rem;
+    }
+    .copyright{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        color: rgba(255, 255, 255, 0.61);
+    }
+    .cright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: row;
+    }
+    .cright a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.61);
+    }
 }
